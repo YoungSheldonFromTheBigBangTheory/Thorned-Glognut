@@ -1,9 +1,11 @@
 import math
 
-x = int(input("Enter Diameter, "))
+
+#d = str("null")
+d = float(input("Enter Diameter, "))
 pi = math.pi
 
-r = x/2
+r = d/2
 a = pi * (r ** 2)
 c = 2 * pi * r
 
