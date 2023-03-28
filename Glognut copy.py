@@ -3,12 +3,13 @@ import math
 
 d = str("null")
 pi = math.pi
+d = (input())
 
 print("a")
 
 while isinstance(d, str) is True:
-    d = (input())
-#if d.isnumeric():
+    
+
 else:
     r = d/2
     a = pi * (r ** 2)

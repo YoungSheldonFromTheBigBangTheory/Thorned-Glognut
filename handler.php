@@ -4,7 +4,6 @@
 <head>
 </head>
 
-d = float(input())
 
 <body>
     
@@ -13,7 +12,8 @@ d = float(input())
     if ( isset( $_POST['userName'] ) ){
       $userName = $_POST['userName'];
     }
-    echo "<h1>Welcome ".$userName."!</h1>\n";
+    echo "<h1>The area is ".$userName."!</h1>\n";
+    echo "<h1>The circumference is ".$userName."!</h1>\n";
     ?>
     
   </body>
