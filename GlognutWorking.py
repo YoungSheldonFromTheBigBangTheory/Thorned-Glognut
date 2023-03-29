@@ -7,10 +7,9 @@ d = (input())
 
 print("a")
 
-while isinstance(d, str) is True:
-    
-
-else:
+try:
+d = float(d)
+except:
     r = d/2
     a = pi * (r ** 2)
     c = 2 * pi * r
